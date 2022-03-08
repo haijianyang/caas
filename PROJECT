@@ -1,0 +1,16 @@
+domain: caas.io
+layout:
+- go.kubebuilder.io/v3
+projectName: caas
+repo: caas.io/caas
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: caas.io
+  group: cluster
+  kind: Cluster
+  path: caas.io/caas/api/cluster/v1
+  version: v1
+version: "3"

@@ -1,0 +1,6 @@
+apiVersion: cluster.caas.io/v1
+kind: Cluster
+metadata:
+  name: cluster-sample
+spec:
+  # TODO(user): Add fields here
